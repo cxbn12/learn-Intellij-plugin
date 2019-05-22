@@ -24,10 +24,11 @@
     </extensions>
 
     <actions>
-        <group id="testMenu" text="Test Menu" description="Test menu">
-            <add-to-group group-id="MainMenu" anchor="last"/>
-            <action id="testMenu.Textboxes" class="com.github.peacetrue.learn.intellij.plugin.TextBoxes" text="Text Boxes" description="A test menu item" />
-        </group>
+        <action id="PeacetrueLearn.DBGenerator" class="com.github.peacetrue.learn.intellij.plugin.databasetools.DBGeneratorAction" text="CodeGen-DB">
+            <add-to-group group-id="DatabaseViewPopupMenu" anchor="after" relative-to-action="CopyReference"/>
+        </action>
     </actions>
+
+    <depends>com.intellij.database</depends>
 
 </idea-plugin>

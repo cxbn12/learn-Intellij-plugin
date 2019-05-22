@@ -16,3 +16,37 @@ v1.0, 2019-05-22: SNAPSHOT
 文章写得很详细，我需要一个实战的例子，完整地运用一下。
 就通过改善 https://github.com/hykes/CodeGen[CodeGen^]来实战吧。
 
+== 在DatabaseTools上添加一个菜单项
+
+=== DatabaseTools介绍
+.DatabaseTools插件
+image::database-plugin.png[]
+
+这是一个捆绑插件，位置如下：
+
+* idea目录： /Applications/IntelliJ IDEA.app/Contents
+* idea转译后目录： /Applications/IntelliJ\ IDEA.app/Contents
+* 插件目录：plugins/<pluginname> 或 plugins/<pluginname>/lib
+* DatabaseTools目录： /Applications/IntelliJ IDEA.app/Contents/plugins/DatabaseTools
+
+=== 添加菜单项
+再选中表弹出来的菜单中，添加一个菜单项，如下图所示：
+
+image::db-menu-item.png[]
+
+=== 导入 Database 依赖
+image::add-db-lib.png[]
+
+=== 查看插件id
+image::Datatools-plugin-id.png[]
+
+=== 运行测试
+第一次运行时，会提示依赖的插件被禁用：
+
+image::datatools-disabled.png[]
+
+再次运行就好了，应该是第一次没有加载依赖导致的。
+
+
+
+
