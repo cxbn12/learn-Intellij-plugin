@@ -16,6 +16,7 @@ v1.0, 2019-05-22: SNAPSHOT
 文章写得很详细，我需要一个实战的例子，完整地运用一下。
 就通过改善 https://github.com/hykes/CodeGen[CodeGen^]来实战吧。
 
+
 == 在DatabaseTools上添加一个菜单项
 
 === DatabaseTools介绍
@@ -30,7 +31,7 @@ image::database-plugin.png[]
 * DatabaseTools目录： /Applications/IntelliJ IDEA.app/Contents/plugins/DatabaseTools
 
 === 添加菜单项
-再选中表弹出来的菜单中，添加一个菜单项，如下图所示：
+在选中表弹出来的菜单中，添加一个菜单项，如下图所示：
 
 image::db-menu-item.png[]
 
@@ -47,6 +48,11 @@ image::datatools-disabled.png[]
 
 再次运行就好了，应该是第一次没有加载依赖导致的。
 
+
+== 在系统配置中添加一个面板
+image::applicationConfiguration.png[]
+
+基于``intellj idea``的扩展点``applicationConfigurable``可以实现配置面板。
 
 
 

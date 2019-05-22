@@ -18,9 +18,11 @@
     <!-- uncomment to enable plugin in all products
     <depends>com.intellij.modules.lang</depends>
     -->
+    <depends>com.intellij.database</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <applicationConfigurable groupId="tools" id="PeacetrueLearn.Variables" instance="com.github.peacetrue.learn.intellij.plugin.appconfig.ApplicationConfigurable">
+        </applicationConfigurable>
     </extensions>
 
     <actions>
@@ -29,6 +31,5 @@
         </action>
     </actions>
 
-    <depends>com.intellij.database</depends>
 
 </idea-plugin>
