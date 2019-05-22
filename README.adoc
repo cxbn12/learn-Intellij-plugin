@@ -11,8 +11,8 @@ v1.0, 2019-05-22: SNAPSHOT
 :source-highlighter: coderay
 :coderay-linenums-mode: inline
 
-参考 https://cloud.tencent.com/developer/article/1348741[你们要的Intellij IDEA 插件开发秘籍]
+参考 https://cloud.tencent.com/developer/article/1348741[你们要的Intellij IDEA 插件开发秘籍^]
 
 文章写得很详细，我需要一个实战的例子，完整地运用一下。
-就通过改善 https://github.com/hykes/CodeGen[CodeGen]来实战吧。
+就通过改善 https://github.com/hykes/CodeGen[CodeGen^]来实战吧。
 
